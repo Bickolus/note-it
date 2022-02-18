@@ -7,7 +7,7 @@ const fs = require('fs');
 const uuid = require('./helpers/uuid');
 
 // Port decided by the domain, otherwise use 3001
-const PORT = process.env.port || 3001;
+const port = process.env.PORT || 3001;
 
 // Set up the express by assigning it to app
 const app = express();
@@ -90,6 +90,6 @@ app.delete('/api/notes/:id', function (req, res) {
     });
 });
 
-app.listen(PORT, () =>
-    console.log(`App currently listening on port ${PORT} 🚀`)
+app.listen(port, () =>
+    console.log(`App currently listening on port ${port} 🚀`)
 );
