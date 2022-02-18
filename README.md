@@ -8,7 +8,7 @@ This is an application that allows a user to insert and delete notes that they m
 
 > Github Repository Link: [https://github.com/Bickolus/note-it](https://github.com/Bickolus/note-it)
 >
-> Deployed Link: https://user-images.githubusercontent.com/96181899/153952952-f3efd1a1-8e86-4fe3-890c-383c9c86f174.mp4
+> Deployed Link: https://note-it-by-bilal.herokuapp.com/
 
 
 ## Table of Contents
